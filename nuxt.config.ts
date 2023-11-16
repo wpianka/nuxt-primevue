@@ -12,5 +12,5 @@ export default defineNuxtConfig({
       include: ['Button']
     }
   },
-  css: ['primevue/resources/themes/lara-light-teal/theme.css']
+  css: ['primevue/resources/themes/lara-light-teal/theme.css', 'primevue/resources/primevue.css']
 })
