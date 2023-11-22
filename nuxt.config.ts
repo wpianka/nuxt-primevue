@@ -7,12 +7,13 @@ export default defineNuxtConfig({
       ripple: true,
     },
     components: {
-      include: ["Button"],
+      include: ["Button", 'InputText'],
     },
   },
   css: [
     "primevue/resources/primevue.min.css",
     "primeicons/primeicons.css",
     "primevue/resources/themes/lara-dark-indigo/theme.css",
+    "primeflex/primeflex.css",
   ],
 });
